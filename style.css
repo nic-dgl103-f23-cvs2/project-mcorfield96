@@ -286,12 +286,12 @@ nav ul {
 
   /*--Subscribe--*/
 
-  section.subscribe {
+  section.email {
     margin-bottom: 30px;
   }
 
 
-  .subscribe div.signup {
+  .email div.signup {
     background-color: #7DABB1;
     width: 90%;
     padding: 10px 10% 10px 20px;
@@ -302,21 +302,29 @@ nav ul {
     flex-direction: column;
   }
 
-  div.subscribe-header {
+  div.email-header {
     display: flex;
     flex-direction: row;
     margin: 0px 0px 10px 0px;
   }
 
-  section.subscribe h2 {
+  div.email-header div {
     width: 55%;
+  }
+
+  section.email h2 {
     margin: 15px 0px 10px 0px;
+    text-align: left;
+  }
+
+  section.email p {
     text-align: left;
   }
 
   div.signup img {
     width: 30%;
     padding-right: 15px;
+    padding-left: 10px;
     object-fit: contain;
   }
 
@@ -334,9 +342,13 @@ nav ul {
   div.signup input {
     margin: 3px 0px 3px 0px;
     border-radius: 8px;
-    padding: 3px;
+    padding: 4px;
     border: 2px solid white;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+
+  div.signup input::placeholder {
+    font-family: 'REM', sans-serif;
   }
 
   #submit {
@@ -575,10 +587,15 @@ nav ul {
   .container {
     display: flex;
     width: 80vw;
-    height: 120vh;
+    height: 180vh;
     flex-direction: column;
-    margin: auto;
+    margin: 10px auto;
     align-items: center;
+  }
+
+  h3.card-title {
+    margin: 5px auto;
+    font-size: 1.6rem;
   }
 
   .panel {
@@ -596,19 +613,22 @@ nav ul {
   }
 
   .panel div.panel-text {
+    margin: 0;
     position: absolute;
-    bottom: 20px;
-    left: 20px;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     opacity: 0;
     background-color: #7DABB1;
     width: 80%;
     border-radius: 8px;
+    padding: 3px 5px 3px 5px;
   }
    
   .panel.active{
     flex: 5;
   }
-  
   
   .panel.active div.panel-text {
     opacity:1;
@@ -637,6 +657,20 @@ nav ul {
 
   #service6 {
     background-image: url(images/exercise2-square.jpg);
+  }
+
+  /*--TREATMENTS Email--*/
+
+  #message {
+    height: 100px;
+    border-radius: 8px;
+    padding: 4px;
+    border: 2px solid white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+
+  #message::placeholder {
+    font-family: 'REM', sans-serif;
   }
 
   
