@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=" width=device-width, initial-scale=1.0">
+    <title>About Ascent</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=REM&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/ascent-logo-white.png" alt="mountain logo">
+        <nav>
+            <a class="toggle" onclick="showNav()"><i class="fa fa-bars" aria-hidden="true"></i></a>
+            <ul id="nav-items">
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">About</a>
+              </li>
+              <li>
+                <a href="#">Treatments</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+        </nav>
+    </header>
+    <script>
+      function showNav() {
+        var element = document.getElementById("nav-items");
+        element.classList.toggle("show-items");
+      }
+    </script>
+    <main>
+        <section class="page-hero">
+            <div>
+                <p>Ascent Physiotherapy</p>
+                <h1>Our Services</h1>
+            </div>
+        </section>
+        <section class="treatments-intro">
+            <div class="treatments-intro-text">
+                <h2>Treatments</h2>
+                <p>At Ascent Physiotherapy, we pride ourselves on offering the most effective, evidence based treatments available. All to ensure you are your healthiest self.</p>
+            </div>
+        </section>
+        <section class="expanding-info">
+            <div class="container">
+                <div class="panel" id="service1">
+                    <div class="panel-text">
+                        <h3>Manual Therapy</h3>
+                        <p>Manual therapy is a hands-on treatment where a therapist carefully moves the tissues and joints of the body to restore movement and relieve pain.</p>
+                    </div>
+                </div>
+                <div class="panel" id="service2">
+                    <div class="panel-text">
+                        <h3>Intramuscular Stimulation</h3>
+                        <p>Intramuscular stimulation (IMS) is used to release or lengthen muscles by inserting very fine needle into the affected muscle to stimulate healing.</p>
+                    </div>
+                </div>
+                <div class="panel" id="service3">
+                    <div class="panel-text">
+                        <h3>Acupuncture</h3>
+                        <p>Acupuncture involves inserting needles into the body to stimulate nerves in the skin and muscles to treat chronic pain and other conditions.</p>
+                    </div>
+                </div>
+                <div class="panel" id="service4">
+                    <div class="panel-text">
+                        <h3>Radial Shockwave Therapy</h3>
+                        <p>Radial Shockwave Therapy is an FDA cleared technology proven to increase healing for soft tissue tendinopathy sending soundwaves into your soft tissue.</p>
+                    </div>
+                </div>
+                <div class="panel" id="service5">
+                    <div class="panel-text">
+                        <h3>Athletic Taping</h3>
+                        <p>Athletic taping is the process of applying tape directly to the skin or over pre-wrap in order to maintain a stable position of bones and muscles.</p>
+                    </div>
+                </div>
+                <div class="panel" id="service6">
+                    <div class="panel-text">
+                        <h3>Personal Training</h3>
+                        <p>Our trainers deliver safe and effective exercise programs for clients that increase strength, mobility and athletic performance.</p>
+                    </div>
+                </div> 
+            </div>
+
+    </section>
+    </main>
+    <script>
+        const panels = document.querySelectorAll('.panel');
+
+        panels.forEach(panel => {
+        panel.addEventListener('click', () => {
+        removeActiveClasses();
+        panel.classList.add('active');
+            })
+        })
+
+        function removeActiveClasses(){
+        panels.forEach(panel => {
+        panel.classList.remove('active');
+            })
+        }
+    </script>
+</body>
+</html>

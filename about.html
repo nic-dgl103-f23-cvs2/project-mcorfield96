@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=" width=device-width, initial-scale=1.0">
+    <title>About Ascent</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=REM&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/ascent-logo-white.png" alt="mountain logo">
+        <nav>
+            <a class="toggle" onclick="showNav()"><i class="fa fa-bars" aria-hidden="true"></i></a>
+            <ul id="nav-items">
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">About</a>
+              </li>
+              <li>
+                <a href="#">Treatments</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+        </nav>
+    </header>
+    <script>
+      function showNav() {
+        var element = document.getElementById("nav-items");
+        element.classList.toggle("show-items");
+      }
+    </script>
+    <main>
+        <section class="page-hero">
+            <div>
+                <p>Ascent Physiotherapy</p>
+                <h1>About Our Studio</h1>
+            </div>
+        </section>
+        <section class="about-intro">
+            <div class="about-intro-text">
+                <h2>Our Studio</h2>
+                <p>Ascent Physiotherapy is a full service physiotherapy clinic located in Comox, BC. Our fully equipped studio is located just off Comox Avenue at 141 Nordin Street and features all the best amenities.</p>
+            </div>
+            <div class="about-facilities">
+                <ul>
+                    <li>12 treatment cubicles</li>
+                    <li>Gym area with treadmill, stationary bike, and weights</li>
+                    <li>Aerobics area with room for balance analysis and exercises.</li>
+                </ul>
+                <img src="images/ascent-studio-collage.png">
+            </div>
+        </section>
+        <section>
+            <div class="about-team">
+                <h2>Meet the Team</h2>
+                <h3>Therapists and Trainers</h3>
+                <div class="about-team-therapists">
+                    <div class="panel">
+                        <img src="images/Kendra.jpg">
+                        <h3>Kendra Mulligan</h3>
+                        <p class="hide">Kendra has co-owned Ascent Physiotherapy since 2010 with Ron Mulligan and is proud of the contributions that the clinic and staff have made to the valley by offering best practice, evidence based manual therapy and community involvement.</p>
+                        <p class="hide">Kendra graduated from the University of Alberta in 1993 and started her career in a progressive private practice manual therapy clinic offering excellent mentorship in Grande Prairie, AB. She worked in Alberta for 18 years with 5 of those years owning a physical therapy practice. Kendra is active in the local mountain biking community and enjoys nature and exploring local, regional and North American mountain biking destinations.</p>
+                    </div>
+                    <div class="panel">
+                        <img src="images/Trish.jpg">
+                        <h3>Trish Leslie</h3>
+                        <p class="hide"></p>
+                        <p class="hide"></p>
+                    </div>
+                    <div class="panel">
+                        <img src="images/jared.jpg">
+                        <h3>Jared Hromika</h3>
+                        <p class="hide"></p>
+                        <p class="hide"></p>
+                    </div>
+                    <div class="panel">
+                        <img src="images/shadi.jpg">
+                        <h3>Shadi Fleifel</h3>
+                        <p class="hide"></p>
+                        <p class="hide"></p>
+                    </div>
+                    <div class="panel">
+                        <img src="images/chelsey.jpg">
+                        <h3>Chelsey de la Rey</h3>
+                        <p class="hide"></p>
+                        <p class="hide"></p>
+                    </div>
+                    <div class="panel">
+                        <img src="images/Carter.jpg">
+                        <h3>Carter Mulligan</h3>
+                        <p class="hide"></p>
+                        <p class="hide"></p>
+                    </div>
+                </div>
+                <h3>Patient Coordinators</h3>
+                <div class="about-team-coordinators">
+                    <div id="team7">Tona</div>
+                    <div id="team8">Katy</div>
+                </div>
+            </div>
+        </section>
+        <section class="booking">
+            <div>
+              <div class="booking-text">
+                <h2>Book an appointment</h2>
+                <p>Start your fitness journey and get back to your healthiest self.</p>
+                <a href="#">View availability</a>
+              </div>
+            </div>
+            <img src="images/physio-icon.png" alt="patient stretching">
+          </section>
+    </main>
+    <footer>
+        <img src="images/ascent-logo-white.png" alt="mountain logo">
+        <div>
+          <a href="tel:+12503391039">250-339-1039</a>
+          <a href="mailto:admin@ascentphysiotherapy.com">admin@ascentphysiotherapy.com</a>
+          <p>141A Nordin Street, Comox, BC, V9M 3N5</p>
+        </div>
+        <div class="terms">
+          <p>This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.</p>
+        </div>
+      </footer>
+</body>
+</html>

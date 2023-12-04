@@ -1,0 +1,642 @@
+html {
+    font-size: 62.5%;
+    font-family: 'REM', sans-serif;
+  }
+
+body {
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Arvo', serif;
+}
+
+header {
+    background-color: #7DABB1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+header img {
+    height: 40px;
+    padding: 20px;
+}
+
+nav a {
+   padding: 20px 40px 20px 0px;
+   font-size: 30px;
+   color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+  }
+
+  /*--HOME PAGE--*/
+
+
+  /*--Hero--*/
+
+  section.hero {
+    background-image: url(images/pull-up.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    margin: 0;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .hero p {
+    color: white;
+    font-size: 1.6rem;
+    margin: 5px 5px 0px 40px;
+    display: inline-block;
+  }
+
+  .hero h1 {
+    color: white;
+    font-size: 2.5rem;
+    margin: 5px 5px 5px 40px;
+    width: 80%;
+    display: inline-block;
+  }
+
+  .hero a {
+    color: white;
+    font-size: 1.6rem;
+    text-decoration: none;
+    margin: 5px 5px 5px 40px;
+    padding: 5px 15px 5px 15px;
+    background-color: #BB6D0C;
+    display: inline-block;
+    border-radius: 1px 1px 8px 1px;
+  }
+
+  /*--About--*/
+
+  section.about {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    background-color: #7DABB1;
+  }
+
+  .about h2 {
+    margin: auto;
+    padding-top: 15px;
+    color: white;
+  }
+
+  .about p {
+    color: white;
+    width: 80%;
+    margin: 10px auto 10px auto;
+  }
+
+  .about a {
+    text-decoration: none;
+    margin: 10px auto 10px auto;
+    padding: 5px 15px 5px 15px;
+    border-radius: 1px 1px 8px 1px;
+    background-color: #BB6D0C;
+    color: white;
+    width: fit-content;
+  }
+
+  /*--Treatments--*/
+
+  section.treatments {
+    margin: 0px auto 30px auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+  }
+
+  .treatments h2 {
+    text-align: center;
+    margin: 30px auto 10px auto;
+  }
+
+  .treatments p {
+    text-align: center;
+    margin: 0px auto 30px auto;
+    width: 60%;
+  }
+
+  section.treatments div.grid {
+    display: grid;
+    gap: 10px;
+    margin: auto;
+  }
+
+  div.grid div {
+    width: 160px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+  }
+
+  div.grid div.grid-item-1 {
+    background-image: url(images/massage-square.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  div.grid a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+    padding: 3px 7px 3px 7px;
+    margin: auto;
+    background-color: #BB6D0C;
+    max-width: 80%;
+    box-sizing: border-box;
+    border-radius: 3px;
+  }
+
+  div.grid div.grid-item-2 {
+    background-image: url(images/IMS-square.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column: 2;
+    grid-row: 1;
+  }
+  
+  div.grid div.grid-item-3 {
+    background-image: url(images/acupuncture-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  div.grid div.grid-item-4 {
+    background-image: url(images/electro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  div.grid div.grid-item-5 {
+    background-image: url(images/athletic-tape-square.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  div.grid div.grid-item-6 {
+    background-image: url(images/exercise2-square.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column: 2;
+    grid-row: 3;
+  }
+
+   /*--Quote--*/
+
+  section.quote {
+    background-color: #7DABB1;
+    text-align: center;
+    margin: auto;
+    color: white;
+    width: 80%;
+    border-radius: 8px;
+  }
+
+  .quote h3 {
+    padding: 15px 0px 0px 0px;
+    width: 90%;
+    margin: auto;
+    font-weight: 400;
+  }
+
+  .quote p {
+    padding: 5px 0px 15px 0px;
+  }
+
+  /*--Booking--*/
+
+  section.booking {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 30px 0px 30px 0px;
+  }
+
+  section.booking div {
+    background-color: #BB6D0C;
+    padding-left: 5%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 15px 0px 0px;
+    border-radius: 0px 8px 8px 0px;
+  }
+
+  .booking div.booking-text {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    color: white;
+  }
+
+  .booking div a {
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 1px 1px 8px 1px;
+    background-color: #7DABB1;
+    color: white;
+    width: fit-content;
+  }
+
+  .booking div h2 {
+    margin: 5px;
+    font-weight: 500;
+  }
+
+  .booking div p {
+    margin: 5px;
+  }
+
+  .booking img {
+    width: 45%;
+  }
+
+  /*--Subscribe--*/
+
+  section.subscribe {
+    margin-bottom: 30px;
+  }
+
+
+  .subscribe div.signup {
+    background-color: #7DABB1;
+    width: 90%;
+    padding: 10px 10% 10px 20px;
+    border-radius: 8px 8px 8px 8px;
+    margin: 10px 0px 10px 10%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.subscribe-header {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px 10px 0px;
+  }
+
+  section.subscribe h2 {
+    width: 55%;
+    margin: 15px 0px 10px 0px;
+    text-align: left;
+  }
+
+  div.signup img {
+    width: 30%;
+    padding-right: 15px;
+    object-fit: contain;
+  }
+
+  div.signup form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  div.signup form p {
+    font-size: 1.4rem;
+    margin: 5px 0px 5px 3px;
+  }
+
+  div.signup input {
+    margin: 3px 0px 3px 0px;
+    border-radius: 8px;
+    padding: 3px;
+    border: 2px solid white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+
+  #submit {
+    width: 80px;
+    margin: 15px 0px 7px 0px;
+    background-color: #BB6D0C;
+    color: white;
+    border: 2px solid #BB6D0C;
+  }
+
+  
+
+  /*--Footer--*/
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #7DABB1;
+    color: white;
+  }
+
+  footer img {
+    max-width: 60%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    max-width: 90%;
+  }
+
+  footer div p {
+    margin: 5px 5px 15px 5px;
+  }
+
+  footer div a {
+    margin: 5px;
+    color: #BB6D0C;
+  }
+
+  div.terms {
+    border-top: 1px solid black;
+  }
+
+  /*--ABOUT PAGE--*/
+
+  /*--ABOUT Hero--*/
+
+  section.page-hero {
+    background-image: url(images/about-hero-black-white.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    margin: 0;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  section.page-hero div {
+    margin-top: 120px;
+  }
+
+  .page-hero p {
+    color: white;
+    font-size: 1.6rem;
+    margin: 5px 5px 0px 40px;
+    display: inline-block;
+  }
+
+  .page-hero h1 {
+    color: white;
+    font-size: 2.5rem;
+    margin: 5px 5px 5px 40px;
+    width: 80%;
+    display: inline-block;
+  }
+
+  /*--ABOUT Intro--*/
+
+  section.about-intro {
+    margin: auto;
+    text-align: center;
+  }
+
+  div.about-intro-text {
+    background-color: #7DABB1;
+    text-align: center;
+    margin: 0px auto 20px auto;
+    color: white;
+  }
+
+  .about-intro h2 {
+    width: 85%;
+    margin: auto;
+    padding: 10px 0px 10px 0px;
+  }
+
+  .about-intro p {
+    width: 85%;
+    margin: auto;
+    padding: 0px 0px 20px 0px;
+    font-size: 1.2rem;
+  }
+
+  div.about-facilities {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 85%;
+    background-color: #BB6D0C;
+    color: white;
+    padding: 15px 15px 15px 15px;
+    border-radius: 8px 0px 0px 8px;
+    margin: 0px 0px 20px auto;
+  }
+
+  .about-facilities ul {
+    display: inline-block;
+    text-align: left;
+    list-style-type: square;
+    padding: 0px 0px 0px 40px;
+    margin: 0px auto 0px auto;
+    width: 45%;
+    font-size: 1.2rem;
+  }
+
+  .about-facilities img {
+    width: 45%;
+    object-fit: contain;
+    padding-right: 30px;
+  }
+
+  /*--ABOUT Team--*/
+
+  div.about-team {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+
+  div.about-team-therapists {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  div.about-team-therapists div {
+    width: 150px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    margin: auto;
+    background-color: #7DABB1;
+  }
+
+  div.about-team-therapists div img {
+    width: 150px;
+    height: 150px;
+    margin: 0;
+    object-fit: contain;
+  }
+
+  .about-team-therapists div h3 {
+    color: white;
+    padding: 9px 0px 9px 0px;
+    width: 150px;
+    font-size: 1.2rem;
+    margin: 0;
+  }
+
+  p.hide {
+    display: none;
+  }
+
+  #team1 {
+    grid-column: 1;
+    grid-row: 1;
+    flex: 1;
+    transition: 0.3s;
+  }
+
+  #team1:hover {
+    flex: 3;
+    p.hide {
+        display: inline-block;
+    }
+  }
+
+  /*--TREATMENT PAGE--*/
+
+  /*--TREATMENT Intro--*/
+
+  section.treatments-intro {
+    background-color: #7DABB1;
+  }
+
+  div.treatments-intro-text {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    color: white;
+  }
+
+  div.treatments-intro-text h2 {
+    margin: auto;
+    padding: 10px 0px 10px 0px;
+  }
+
+  div.treatments-intro-text p {
+    margin: auto;
+    padding: 0px 0px 20px 0px;
+    font-size: 1.2rem;
+  }
+
+  /*--TREATMENT Expanding Info--*/
+
+  section.expanding-info {
+    margin: auto;
+  }
+
+  .container {
+    display: flex;
+    width: 80vw;
+    height: 120vh;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+  }
+
+  .panel {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 70vw;
+    border-radius: 50px;
+    flex: 0.5;
+    position: relative;
+    transition: flex 0.5s ease-in;
+    color: white;
+    cursor:pointer;
+    margin: 10px;
+  }
+
+  .panel div.panel-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    opacity: 0;
+    background-color: #7DABB1;
+    width: 80%;
+    border-radius: 8px;
+  }
+   
+  .panel.active{
+    flex: 5;
+  }
+  
+  
+  .panel.active div.panel-text {
+    opacity:1;
+    transition: opacity 0.4s ease-in 0.4s;
+  }
+
+  #service1 {
+    background-image: url(images/massage-square.jpg);
+  }
+
+  #service2 {
+    background-image: url(images/IMS-square.jpg);
+  }
+
+  #service3 {
+    background-image: url(images/acupuncture-1.jpg);
+  }
+
+  #service4 {
+    background-image: url(images/electro.jpg);
+  }
+
+  #service5 {
+    background-image: url(images/athletic-tape-square.jpg);
+  }
+
+  #service6 {
+    background-image: url(images/exercise2-square.jpg);
+  }
+
+  

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content=" width=device-width, initial-scale=1.0">
+  <title>Ascent Physiotherapy</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=REM&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/ascent-logo-white.png" alt="mountain logo">
+        <nav>
+            <a class="toggle" onclick="showNav()"><i class="fa fa-bars" aria-hidden="true"></i></a>
+            <ul id="nav-items">
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">About</a>
+              </li>
+              <li>
+                <a href="#">Treatments</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+        </nav>
+    </header>
+    <script>
+      function showNav() {
+        var element = document.getElementById("nav-items");
+        element.classList.toggle("show-items");
+      }
+    </script>
+    <main>
+        <section class="hero">
+            <div>
+                <p>Welcome to Ascent</p>
+                <h1>Full-service physiotherapy in the heart of Comox</h1>
+                <a href="#">Treatments</a>
+            </div>
+        </section>
+        <section class="about">
+          <h2>Ascent Physiotherapy</h2>
+          <p>Get back to your healthiest self. For 13 years Ascent has been helping residents of the Comox Valley achieve optimal health and vitality. We offer a range of physiotherapy options, including radial shockwave therapy, acupuncture,manual manipulative therapy, and more.</p>
+          <a href="#">Treatments</a>
+        </section>
+        <section class="treatments">
+          <h2>Our Services</h2>
+          <p>Explore the full range of treatments that can help you move and feel better.</p>
+          <div class="grid">
+            <div class="grid-item-1"><a href="#">Manual and Manipulative Therapy</a></div>
+            <div class="grid-item-2"><a href="#">Intramuscular Stimulation</a></div>
+            <div class="grid-item-3"><a href="#">Acupuncture</a></div>
+            <div class="grid-item-4"><a href="#">Radial Shockwave Therapy</a></div>
+            <div class="grid-item-5"><a href="#">Athletic Taping</a></div>
+            <div class="grid-item-6"><a href="#">Personal Training</a></div>
+          </div>
+        </section>
+        <section class="quote">
+          <h3>"Friendly and very informative. Shadi took the time in my assessment to walk me through my aches and pains. We got down to the core of the issues instead of just grazing the surface. I highly recommend you check out Ascent Physiotherapy."</h3>
+          <p>David Milan</p>
+        </section>
+        <section class="booking">
+          <div>
+            <div class="booking-text">
+              <h2>Book an appointment</h2>
+              <p>Start your fitness journey and get back to your healthiest self.</p>
+              <a href="#">View availability</a>
+            </div>
+          </div>
+          <img src="images/physio-icon.png" alt="patient stretching">
+        </section>
+        <section class="subscribe">
+          <div class="signup">
+            <div class="subscribe-header">
+              <h2>Sign up for our newsletter to receive the latest news and exclusive deals</h2>
+              <img src="images/mail-icon-1-white.png" alt="letter icon">
+            </div>
+              <form>
+                <p>First Name</p>
+                <input type="text" name="fname" placeholder="Your first name">
+                <p>Last Name</p>
+                <input type="text" name="lname" placeholder="Your last name">
+                <p>Email Address</p>
+                <input type="email" name="email" placeholder="Your email address">
+                <input id="submit" type="submit">
+              </form>
+          </div>
+        </section>
+    </main>
+    <footer>
+      <img src="images/ascent-logo-white.png" alt="mountain logo">
+      <div>
+        <a href="tel:+12503391039">250-339-1039</a>
+        <a href="mailto:admin@ascentphysiotherapy.com">admin@ascentphysiotherapy.com</a>
+        <p>141A Nordin Street, Comox, BC, V9M 3N5</p>
+      </div>
+      <div class="terms">
+        <p>This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.</p>
+      </div>
+    </footer>
+</body>
+</html>
