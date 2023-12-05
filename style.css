@@ -224,7 +224,7 @@ nav ul {
 
    /*--HOME Quote--*/
 
-  section.quote {
+  section.quote div {
     background-color: #7DABB1;
     text-align: center;
     margin: auto;
@@ -761,8 +761,70 @@ nav ul {
     }
 
     /*--HOME Treatments--*/
+
+    .treatments h2 {
+      font-size: 3.8rem;
+    }
+
+    .treatments p {
+      font-size: 2.0rem;
+    }
     
-    
+    div.grid div {
+      width: 300px;
+      height: 300px;
+    }
+
+    div.grid a {
+      font-size: 2.0rem;
+      width: fit-content;
+    }
+
+    div.grid div.grid-item-1 {
+      grid-column: 1;
+      grid-row: 1;
+    }
+
+    div.grid div.grid-item-2 {
+      grid-column: 2;
+      grid-row: 1;
+    }
+
+    div.grid div.grid-item-3 {
+      grid-column: 3;
+      grid-row: 1;
+    }
+
+    div.grid div.grid-item-4 {
+      grid-column: 1;
+      grid-row: 2;
+    }
+
+    div.grid div.grid-item-5 {
+      grid-column: 2;
+      grid-row: 2;
+    }
+
+    div.grid div.grid-item-6 {
+      grid-column: 3;
+      grid-row: 2;
+    }
+
+    /*--HOME Quote--*/
+
+    section.quote div {
+      max-width: 1170px;
+    }
+
+    .quote h3 {
+      font-size: 2.0rem;
+    }
+
+    .quote p {
+      font-size: 2.0rem;
+    }
+
+    /*--HOME Booking--*/
 
     /*--ABOUT--*/
 
