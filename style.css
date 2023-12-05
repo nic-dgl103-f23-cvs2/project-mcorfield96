@@ -31,6 +31,7 @@ nav a {
    padding: 20px 40px 20px 0px;
    font-size: 30px;
    color: white;
+   text-decoration: none;
 }
 
 nav ul {
@@ -179,7 +180,7 @@ nav ul {
     background-color: #BB6D0C;
     max-width: 80%;
     box-sizing: border-box;
-    border-radius: 3px;
+    border-radius: 8spx;
   }
 
   div.grid div.grid-item-2 {
@@ -244,32 +245,28 @@ nav ul {
     padding: 5px 0px 15px 0px;
   }
 
-  /*--Booking--*/
+  /*--HOME Booking--*/
 
-  section.booking {
+
+  section.booking div {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    width: 100%;
+    justify-content: space-between;
+    width: 100vw;
     margin: 30px 0px 30px 0px;
   }
 
-  section.booking div {
+  .booking div.booking-text {
     background-color: #BB6D0C;
-    padding-left: 5%;
+    padding-left: 10%;
+    padding-right: 3%;
     display: flex; 
     flex-direction: column;
     justify-content: center;
     margin: 0px 15px 0px 0px;
     border-radius: 0px 8px 8px 0px;
-  }
-
-  .booking div.booking-text {
-    display: flex; 
-    flex-direction: column;
-    justify-content: center;
-    width: 80%;
     color: white;
+    width: 38%;
   }
 
   .booking div a {
@@ -292,10 +289,11 @@ nav ul {
   }
 
   .booking img {
-    width: 45%;
+    width: 38%;
+    margin-right: 10%;
   }
 
-  /*--Subscribe--*/
+  /*--HOME Subscribe--*/
 
   section.email {
     margin-bottom: 30px;
@@ -304,7 +302,7 @@ nav ul {
 
   .email div.signup {
     background-color: #7DABB1;
-    width: 90%;
+    width: 80%;
     padding: 10px 10% 10px 20px;
     border-radius: 8px 8px 8px 8px;
     margin: 10px 0px 10px 10%;
@@ -332,7 +330,7 @@ nav ul {
     text-align: left;
   }
 
-  div.signup img {
+  div.email-header img {
     width: 30%;
     padding-right: 15px;
     padding-left: 10px;
@@ -716,6 +714,10 @@ nav ul {
 
   @media only screen and (min-width: 1200px) {
 
+    header img {
+      height: 80px;
+    }
+
     section.hero {
       height: 70vh;
     }
@@ -723,19 +725,24 @@ nav ul {
     section.hero div {
       display: flex;
       flex-direction: column;
+      margin: auto;
+      max-width: 1170px;
     }
 
     section.hero p {
       font-size: 2.8rem;
+      margin-left: 0;
     }
 
     section.hero h1 {
       font-size: 3.8rem;
+      margin-left: 0;
     }
 
     section.hero div a {
       width: fit-content;
       font-size: 2.8rem;
+      margin-left: 0;
     }
 
     /*--HOME Intro--*/
@@ -778,6 +785,7 @@ nav ul {
     div.grid a {
       font-size: 2.0rem;
       width: fit-content;
+      border-radius: 8px;
     }
 
     div.grid div.grid-item-1 {
@@ -813,18 +821,81 @@ nav ul {
     /*--HOME Quote--*/
 
     section.quote div {
-      max-width: 1170px;
+      width: 1170px;
+      border-radius: 12px;
+      padding: 20px;
+      margin: auto;
     }
 
     .quote h3 {
-      font-size: 2.0rem;
+      font-size: 2.8rem;
     }
 
     .quote p {
-      font-size: 2.0rem;
+      font-size: 2.8rem;
+      margin-top: 10px;
+      margin-bottom: 0;
     }
 
     /*--HOME Booking--*/
+
+    section.booking {
+      display: flex;
+      flex-direction: row;
+      max-width: 1170px;
+      margin: auto;
+      justify-content: space-between;
+    }
+
+    section.booking div {
+      border-radius: 12px;
+      padding: 20px;
+      margin: auto;
+    }
+
+    .booking div div.booking-text {
+      margin: 0;
+      padding: 20px;
+      width: 60%;
+      border-radius: 12px;
+    }
+
+    .booking div h2 {
+      font-size: 3.8rem;
+      margin-bottom: 20px;
+    }
+
+    .booking div p {
+      font-size: 2.8rem;
+      margin-bottom: 20px;
+    }
+
+    div.booking-text a {
+      font-size: 2.8rem;
+      border-radius: 8px 8px 8px 8px;
+    }
+
+    section.booking img {
+      width: 30%;
+    }
+
+    /*--HOME Email--*/
+
+    section.email {
+      width: 1170px;
+      margin: auto;
+    }
+
+    section.email div.signup {
+      border-radius: 12px;
+      padding: 20px;
+      margin: 0;
+      width: 100%;
+    }
+
+    div.signup img {
+      width: 30%;
+    }
 
     /*--ABOUT--*/
 
