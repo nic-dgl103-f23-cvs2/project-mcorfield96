@@ -407,43 +407,20 @@ nav ul {
   }
 
   div.terms {
-    border-top: 1px solid black;
+    border-top: 1px solid white;
   }
 
   /*--ABOUT PAGE--*/
 
   /*--ABOUT Hero--*/
 
-  section.page-hero {
+  section.about-hero {
     background-image: url(images/about-hero-black-white.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-    margin: 0;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
   }
 
-  section.page-hero div {
-    margin-top: 120px;
-  }
-
-  .page-hero p {
-    color: white;
-    font-size: 1.6rem;
-    margin: 5px 5px 0px 40px;
-    display: inline-block;
-  }
-
-  .page-hero h1 {
-    color: white;
-    font-size: 2.5rem;
-    margin: 5px 5px 5px 40px;
-    width: 80%;
-    display: inline-block;
-  }
 
   /*--ABOUT Intro--*/
 
@@ -480,7 +457,7 @@ nav ul {
     background-color: #BB6D0C;
     color: white;
     padding: 15px 15px 15px 15px;
-    border-radius: 8px 0px 0px 8px;
+    border-radius: 12px 0px 0px 12px;
     margin: 15px 0px 20px auto;
   }
 
@@ -568,31 +545,12 @@ nav ul {
 
   section.treatments-hero {
     background-image: url(images/treatments-hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
   }
 
   /*--TREATMENT Intro--*/
-
-  section.treatments-intro {
-    background-color: #7DABB1;
-  }
-
-  div.treatments-intro-text {
-    width: 80%;
-    text-align: center;
-    margin: auto;
-    color: white;
-  }
-
-  div.treatments-intro-text h2 {
-    margin: auto;
-    padding: 10px 0px 10px 0px;
-  }
-
-  div.treatments-intro-text p {
-    margin: auto;
-    padding: 0px 0px 20px 0px;
-    font-size: 1.2rem;
-  }
 
   /*--TREATMENT Expanding Info--*/
 
@@ -758,19 +716,18 @@ nav ul {
 
     section.intro p {
       font-size: 2.0rem;
-      margin-bottom: 10px;
-    }
-
-    section.intro a {
-      font-size: 2.0rem;
-      margin-top: 0px;
       margin-bottom: 20px;
     }
 
     /*--HOME Treatments--*/
 
+    section.treatments {
+      margin: 30px auto;
+    }
+
     .treatments h2 {
       font-size: 3.8rem;
+      margin: 0;
     }
 
     .treatments p {
@@ -820,6 +777,10 @@ nav ul {
 
     /*--HOME Quote--*/
 
+    section.quote {
+      margin: 30px 0px 30px 0px;
+    }
+
     section.quote div {
       width: 1170px;
       border-radius: 12px;
@@ -843,7 +804,7 @@ nav ul {
       display: flex;
       flex-direction: row;
       max-width: 1170px;
-      margin: auto;
+      margin: 30px auto;
       justify-content: space-between;
     }
 
@@ -877,43 +838,224 @@ nav ul {
 
     section.booking img {
       width: 30%;
+      margin-left: 40px;
     }
 
     /*--HOME Email--*/
 
     section.email {
-      width: 1170px;
-      margin: auto;
+      margin: 30px 0px 60px 0px;
     }
+
 
     section.email div.signup {
       border-radius: 12px;
       padding: 20px;
-      margin: 0;
-      width: 100%;
+      margin: auto;
+      width: 1170px;
+    }
+
+    div.email-header {
+      margin: auto;
+      width: 90%;
+    }
+
+    div.signup form {
+      width: 90%;
+      margin: auto;
+    }
+
+    section.email div.signup h2 {
+      font-size: 3.8rem;
+    }
+
+    section.email div.signup p {
+      font-size: 2.8rem;
     }
 
     div.signup img {
-      width: 30%;
+      width: 20%;
+      margin: auto;
+    }
+
+    div.signup form input {
+      font-size: 2.8rem;
+    }
+
+    #submit {
+      width: fit-content;
+      padding: 3px 10px;
+    }
+
+    /*--Footer--*/
+
+    footer {
+      font-size: 2rem;
+    }
+
+    footer div.terms {
+      width: 100%;
+      padding: 20px;
+    }
+
+    div.terms p {
+      width: 40%;
+    }
+
+    table.hours {
+      margin: auto;
+      margin-bottom: 20px;
+      text-align: left;
+    }
+
+    table.hours td {
+      padding: 0px 20px;
     }
 
     /*--ABOUT--*/
 
-    section.page-hero {
-      height: 70vh;
+    /*--ABOUT Hero--*/
+
+    section.about-hero {
+      background-position: center;
     }
 
-    section.page-hero div {
-      display: flex;
-      flex-direction: column;
+    section.about-hero div {
+      width: 70%;
+      color: #BB6D0C;
     }
 
-    section.page-hero p {
+    /*--ABOUT Intro--*/
+
+    div.about-intro-text h2 {
+      font-size: 3.8rem;
+      padding-top: 20px;
+    }
+
+    div.about-intro-text p {
+      max-width: 70%;
+      font-size: 2.0rem;
+      margin-bottom: 20px;
+    }
+
+    div.about-facilities div {
+      width: 30%;
+      margin-left: 40px;
+    }
+
+
+    div.about-facilities h3 {
+      font-size: 3.8rem;
+      text-align: left;
+      margin: 0;
+    }
+
+    div.about-facilities ul {
       font-size: 2.8rem;
     }
 
-    section.page-hero h1 {
+    /*--ABOUT Team--*/
+
+    div.team-left-text {
+      padding: 15px;
+    }
+
+    div.team-left-text img {
+      width: 200px;
+      height: 200px;
+      margin: 20px;
+    }
+
+    div.team-left-text h3 {
       font-size: 3.8rem;
+    }
+
+    div.team-left-text p {
+      font-size: 2.8rem;
+    }
+
+    div.team-center-text {
+      padding: 15px;
+    }
+
+    div.team-center-text img {
+      width: 200px;
+      height: 200px;
+      margin: 20px;
+    }
+
+    div.team-center-text h3 {
+      font-size: 3.8rem;
+    }
+
+    div.team-center-text p {
+      font-size: 2.8rem;
+    }
+
+
+    
+
+    /*--TREATMENTS Services--*/
+
+    section.expanding-info {
+      margin: 30px 0px;
+    }
+
+    h3.card-title {
+      font-size: 3.8rem;
+    }
+
+    div.panel-text h4 {
+      font-size: 2.8rem;
+      padding-left: 15px;
+    }
+
+    div.panel-text p {
+      font-size: 2.0rem;
+      padding-left: 15px;
+    }
+
+    /*--TREATMENTS Hero--*/
+
+    section.treatments-hero {
+      background-position: center;
+    }
+
+    section.treatments-hero div {
+      width: 70%;
+    }
+
+    section.treatments-hero h1 {
+      
+    }
+
+    section.treatments-hero p {
+      
+    }
+
+
+
+    /*--TREATMENTS Pricing--*/
+
+    section.pricing h2 {
+      font-size: 3.8rem;
+    }
+
+    section.pricing div {
+      border-radius: 12px;
+      padding: 20px;
+      margin: auto;
+      width: 1170px;
+    }
+
+    table.pricing-table {
+      font-size: 2.8rem;
+    }
+    
+    /*--TREATMENTS Email--*/
+
+    #message {
+      font-size: 2.8rem;
     }
 
   }
