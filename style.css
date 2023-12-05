@@ -917,7 +917,7 @@ nav ul {
     /*--ABOUT Hero--*/
 
     section.about-hero {
-      background-position: center;
+      background-position: bottom;
     }
 
     section.about-hero div {
@@ -974,6 +974,11 @@ nav ul {
       font-size: 2.8rem;
     }
 
+    section.team div.team-center {
+      width: 80%;
+      margin: 20px auto;
+    }
+
     div.team-center-text {
       padding: 15px;
     }
@@ -992,8 +997,27 @@ nav ul {
       font-size: 2.8rem;
     }
 
+    /*--TREATMENTS--*/    
 
     
+
+    /*--TREATMENTS Hero--*/
+
+    section.treatments-hero {
+      background-position: center;
+    }
+
+    section.treatments-hero div {
+      width: 70%;
+    }
+
+    section.treatments-hero h1 {
+      
+    }
+
+    section.treatments-hero p {
+      
+    }
 
     /*--TREATMENTS Services--*/
 
@@ -1013,24 +1037,6 @@ nav ul {
     div.panel-text p {
       font-size: 2.0rem;
       padding-left: 15px;
-    }
-
-    /*--TREATMENTS Hero--*/
-
-    section.treatments-hero {
-      background-position: center;
-    }
-
-    section.treatments-hero div {
-      width: 70%;
-    }
-
-    section.treatments-hero h1 {
-      
-    }
-
-    section.treatments-hero p {
-      
     }
 
 
