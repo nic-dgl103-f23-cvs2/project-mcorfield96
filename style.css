@@ -180,7 +180,7 @@ nav ul {
     background-color: #BB6D0C;
     max-width: 80%;
     box-sizing: border-box;
-    border-radius: 8spx;
+    border-radius: 8px;
   }
 
   div.grid div.grid-item-2 {
@@ -408,6 +408,10 @@ nav ul {
 
   div.terms {
     border-top: 1px solid white;
+  }
+
+  iframe {
+    margin-bottom: 10px;
   }
 
   /*--ABOUT PAGE--*/
