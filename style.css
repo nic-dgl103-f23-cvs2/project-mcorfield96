@@ -1,0 +1,1073 @@
+html {
+    font-size: 62.5%;
+    font-family: 'REM', sans-serif;
+  }
+
+body {
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Arvo', serif;
+}
+
+/*--Header--*/
+
+header {
+    background-color: #7DABB1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+header img {
+    height: 40px;
+    padding: 20px;
+}
+
+nav a {
+   padding: 20px 40px 20px 0px;
+   font-size: 30px;
+   color: white;
+   text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+  }
+
+  .show-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+  /*--HOME PAGE--*/
+
+
+  /*--Hero--*/
+
+  section.hero {
+    background-image: url(images/pull-up.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    margin: 0;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .hero p {
+    color: white;
+    font-size: 1.6rem;
+    margin: 5px 5px 0px 40px;
+    display: inline-block;
+  }
+
+  .hero h1 {
+    color: white;
+    font-size: 2.5rem;
+    margin: 5px 5px 5px 40px;
+    width: 80%;
+    display: inline-block;
+  }
+
+  .hero a {
+    color: white;
+    font-size: 1.6rem;
+    text-decoration: none;
+    margin: 5px 5px 5px 40px;
+    padding: 5px 15px 5px 15px;
+    background-color: #BB6D0C;
+    display: inline-block;
+    border-radius: 1px 1px 8px 1px;
+  }
+
+  /*--HOME Intro--*/
+
+  section.intro {
+    background-color: #7DABB1;
+  }
+
+  .intro div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+  }
+
+  .intro h2 {
+    margin: auto;
+    padding-top: 15px;
+    color: white;
+  }
+
+  .intro p {
+    color: white;
+    width: 80%;
+    margin: 10px auto 10px auto;
+  }
+
+  .intro a {
+    text-decoration: none;
+    margin: 0px auto 10px auto;
+    padding: 5px 15px 5px 15px;
+    border-radius: 1px 1px 8px 1px;
+    background-color: #BB6D0C;
+    color: white;
+    width: fit-content;
+  }
+
+  /*--HOME Treatments--*/
+
+  section.treatments {
+    margin: 0px auto 30px auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+  }
+
+  .treatments h2 {
+    text-align: center;
+    margin: 30px auto 10px auto;
+  }
+
+  .treatments p {
+    text-align: center;
+    margin: 0px auto 30px auto;
+    width: 60%;
+  }
+
+  section.treatments div.grid {
+    display: grid;
+    gap: 10px;
+    margin: auto;
+  }
+
+  div.grid div {
+    width: 160px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+  }
+
+  div.grid div.grid-item-1 {
+    background-image: url(images/massage-square.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  div.grid a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+    padding: 3px 7px 3px 7px;
+    margin: auto;
+    background-color: #BB6D0C;
+    max-width: 80%;
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
+
+  div.grid div.grid-item-2 {
+    background-image: url(images/IMS-square.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column: 2;
+    grid-row: 1;
+  }
+  
+  div.grid div.grid-item-3 {
+    background-image: url(images/acupuncture-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  div.grid div.grid-item-4 {
+    background-image: url(images/electro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  div.grid div.grid-item-5 {
+    background-image: url(images/athletic-tape-square.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  div.grid div.grid-item-6 {
+    background-image: url(images/exercise2-square.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column: 2;
+    grid-row: 3;
+  }
+
+   /*--HOME Quote--*/
+
+  section.quote div {
+    background-color: #7DABB1;
+    text-align: center;
+    margin: auto;
+    color: white;
+    width: 80%;
+    border-radius: 8px;
+  }
+
+  .quote h3 {
+    padding: 15px 0px 0px 0px;
+    width: 90%;
+    margin: auto;
+    font-weight: 400;
+  }
+
+  .quote p {
+    padding: 5px 0px 15px 0px;
+  }
+
+  /*--HOME Booking--*/
+
+
+  section.booking div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    margin: 30px 0px 30px 0px;
+  }
+
+  .booking div.booking-text {
+    background-color: #BB6D0C;
+    padding-left: 10%;
+    padding-right: 3%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 15px 0px 0px;
+    border-radius: 0px 8px 8px 0px;
+    color: white;
+    width: 38%;
+  }
+
+  .booking div a {
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 1px 1px 8px 1px;
+    background-color: #7DABB1;
+    color: white;
+    width: fit-content;
+  }
+
+  .booking div h2 {
+    margin: 5px;
+    font-weight: 500;
+  }
+
+  .booking div p {
+    margin: 5px;
+  }
+
+  .booking img {
+    width: 38%;
+    margin-right: 10%;
+  }
+
+  /*--HOME Subscribe--*/
+
+  section.email {
+    margin-bottom: 30px;
+  }
+
+
+  .email div.signup {
+    background-color: #7DABB1;
+    width: 80%;
+    padding: 10px 10% 10px 20px;
+    border-radius: 8px 8px 8px 8px;
+    margin: 10px 0px 10px 10%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.email-header {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px 10px 0px;
+  }
+
+  div.email-header div {
+    width: 55%;
+  }
+
+  section.email h2 {
+    margin: 15px 0px 10px 0px;
+    text-align: left;
+  }
+
+  section.email p {
+    text-align: left;
+  }
+
+  div.email-header img {
+    width: 30%;
+    padding-right: 15px;
+    padding-left: 10px;
+    object-fit: contain;
+  }
+
+  div.signup form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  div.signup form p {
+    font-size: 1.4rem;
+    margin: 5px 0px 5px 3px;
+  }
+
+  div.signup input {
+    margin: 3px 0px 3px 0px;
+    border-radius: 8px;
+    padding: 4px;
+    border: 2px solid white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+
+  div.signup input::placeholder {
+    font-family: 'REM', sans-serif;
+  }
+
+  #submit {
+    width: 80px;
+    margin: 15px 0px 7px 0px;
+    background-color: #BB6D0C;
+    color: white;
+    border: 2px solid #BB6D0C;
+  }
+
+  
+
+  /*--Footer--*/
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #7DABB1;
+    color: white;
+  }
+
+  footer img {
+    max-width: 60%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    max-width: 90%;
+  }
+
+  footer div p {
+    margin: 5px 5px 15px 5px;
+  }
+
+  footer div a {
+    margin: 5px;
+    color: #BB6D0C;
+  }
+
+  div.terms {
+    border-top: 1px solid white;
+  }
+
+  iframe {
+    margin-bottom: 10px;
+  }
+
+  /*--ABOUT PAGE--*/
+
+  /*--ABOUT Hero--*/
+
+  section.about-hero {
+    background-image: url(images/about-hero-black-white.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
+
+
+  /*--ABOUT Intro--*/
+
+  section.about-intro {
+    margin: auto;
+    text-align: center;
+  }
+
+  div.about-intro-text {
+    background-color: #7DABB1;
+    text-align: center;
+    margin: 0px auto 20px auto;
+    color: white;
+  }
+
+  .about-intro h2 {
+    width: 85%;
+    margin: auto;
+    padding: 10px 0px 10px 0px;
+  }
+
+  .about-intro p {
+    width: 85%;
+    margin: auto;
+    padding: 0px 0px 20px 0px;
+    font-size: 1.2rem;
+  }
+
+  div.about-facilities {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 85%;
+    background-color: #BB6D0C;
+    color: white;
+    padding: 15px 15px 15px 15px;
+    border-radius: 12px 0px 0px 12px;
+    margin: 15px 0px 20px auto;
+  }
+
+  .about-facilities div {
+    width: 45%;
+    padding: 0px 25px 0px 0px;
+    margin: 0px auto 0px 10px;
+  }
+
+  .about-facilities h3 {
+    width: fit-content;
+    margin: auto;
+  } 
+
+  .about-facilities ul {
+    display: inline-block;
+    text-align: left;
+    list-style-type: disc;
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+
+  .about-facilities img {
+    width: 45%;
+    object-fit: contain;
+    padding-left: 0px;
+  }
+
+  /*--ABOUT Team--*/
+
+  section.team {
+    width: 100%;
+    margin: 0px 0px 30px 0px;
+  }
+
+  section.team div.team-left {
+    background-color: #7DABB1;
+    padding: 10px 10px 10px 5%;
+    margin: 15px 30px 0px 0px;
+    border-radius: 0px 12px 12px 0px;
+  }
+
+  .team div {
+    color: white;
+  }
+
+  .team div h3 {
+    margin: 5px;
+    font-weight: 500;
+    padding: 5px;
+  }
+
+  .team div p {
+    margin: 5px;
+    padding: 5px;
+  }
+
+  div.team-left-text img {
+    float: inline-start;
+    width: 125px;
+    margin: 10px;
+    border-radius: 8px;
+  }
+
+  section.team div.team-center {
+    background-color: #BB6D0C;
+    padding: 10px 10px 10px 10px;
+    margin: 15px 15px 0px 15px;
+    border-radius: 12px 12px 12px 12px;
+    text-align: left;
+  }
+
+  div.team-center img {
+    float: right;
+    width: 125px;
+    margin: 10px;
+    border-radius: 8px;
+  }
+
+
+
+  /*--TREATMENT PAGE--*/
+
+  /*--TREATMENT Hero--*/
+
+  section.treatments-hero {
+    background-image: url(images/treatments-hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
+
+  /*--TREATMENT Intro--*/
+
+  /*--TREATMENT Expanding Info--*/
+
+  section.expanding-info {
+    margin: auto;
+  }
+
+  .container {
+    display: flex;
+    width: 80vw;
+    height: 180vh;
+    flex-direction: column;
+    margin: 10px auto;
+    align-items: center;
+  }
+
+  h3.card-title {
+    margin: 5px auto;
+    font-size: 1.6rem;
+  }
+
+  .panel {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 70vw;
+    border-radius: 50px;
+    flex: 0.5;
+    position: relative;
+    transition: flex 0.5s ease-in;
+    color: white;
+    cursor:pointer;
+    margin: 10px;
+  }
+
+  .panel div.panel-text {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    background-color: #7DABB1;
+    width: 80%;
+    border-radius: 8px;
+    padding: 3px 5px 3px 5px;
+  }
+   
+  .panel.active{
+    flex: 2;
+  }
+  
+  .panel.active div.panel-text {
+    opacity:1;
+    transition: opacity 0.4s ease-in 0.4s;
+  }
+
+  #service1 {
+    background-image: url(images/massage-square.jpg);
+  }
+
+  #service2 {
+    background-image: url(images/IMS-square.jpg);
+  }
+
+  #service3 {
+    background-image: url(images/acupuncture-1.jpg);
+  }
+
+  #service4 {
+    background-image: url(images/electro.jpg);
+  }
+
+  #service5 {
+    background-image: url(images/athletic-tape-square.jpg);
+  }
+
+  #service6 {
+    background-image: url(images/exercise2-square.jpg);
+  }
+
+  /*--TREATMENTS Pricing--*/
+
+  section.pricing div {
+    width: 80%;
+    background-color: #7DABB1;
+    color: white;
+    margin: auto;
+    border-radius: 8px;
+    padding: 5px;
+  }
+
+  section.pricing h2 {
+    margin: 10px auto 10px auto;
+    text-align: center;
+  }
+
+  table.pricing-table {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  /*--TREATMENTS Email--*/
+
+  #message {
+    height: 100px;
+    border-radius: 8px;
+    padding: 4px;
+    border: 2px solid white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+
+  #message::placeholder {
+    font-family: 'REM', sans-serif;
+  }
+
+  @media only screen and (min-width: 1200px) {
+
+    header img {
+      height: 80px;
+    }
+
+    section.hero {
+      height: 70vh;
+    }
+
+    section.hero div {
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      max-width: 1170px;
+    }
+
+    section.hero p {
+      font-size: 2.8rem;
+      margin-left: 0;
+    }
+
+    section.hero h1 {
+      font-size: 3.8rem;
+      margin-left: 0;
+    }
+
+    section.hero div a {
+      width: fit-content;
+      font-size: 2.8rem;
+      margin-left: 0;
+    }
+
+    /*--HOME Intro--*/
+
+    section.intro div {
+      max-width: 1170px;
+    }
+
+    section.intro h2 {
+      font-size: 3.8rem;
+      padding-top: 20px;
+    }
+
+    section.intro p {
+      font-size: 2.0rem;
+      margin-bottom: 20px;
+    }
+
+    /*--HOME Treatments--*/
+
+    section.treatments {
+      margin: 30px auto;
+    }
+
+    .treatments h2 {
+      font-size: 3.8rem;
+      margin: 0;
+    }
+
+    .treatments p {
+      font-size: 2.0rem;
+    }
+    
+    div.grid div {
+      width: 300px;
+      height: 300px;
+    }
+
+    div.grid a {
+      font-size: 2.0rem;
+      width: fit-content;
+      border-radius: 8px;
+    }
+
+    div.grid div.grid-item-1 {
+      grid-column: 1;
+      grid-row: 1;
+    }
+
+    div.grid div.grid-item-2 {
+      grid-column: 2;
+      grid-row: 1;
+    }
+
+    div.grid div.grid-item-3 {
+      grid-column: 3;
+      grid-row: 1;
+    }
+
+    div.grid div.grid-item-4 {
+      grid-column: 1;
+      grid-row: 2;
+    }
+
+    div.grid div.grid-item-5 {
+      grid-column: 2;
+      grid-row: 2;
+    }
+
+    div.grid div.grid-item-6 {
+      grid-column: 3;
+      grid-row: 2;
+    }
+
+    /*--HOME Quote--*/
+
+    section.quote {
+      margin: 30px 0px 30px 0px;
+    }
+
+    section.quote div {
+      width: 1170px;
+      border-radius: 12px;
+      padding: 20px;
+      margin: auto;
+    }
+
+    .quote h3 {
+      font-size: 2.8rem;
+    }
+
+    .quote p {
+      font-size: 2.8rem;
+      margin-top: 10px;
+      margin-bottom: 0;
+    }
+
+    /*--HOME Booking--*/
+
+    section.booking {
+      display: flex;
+      flex-direction: row;
+      max-width: 1170px;
+      margin: 30px auto;
+      justify-content: space-between;
+    }
+
+    section.booking div {
+      border-radius: 12px;
+      padding: 20px;
+      margin: auto;
+    }
+
+    .booking div div.booking-text {
+      margin: 0;
+      padding: 20px;
+      width: 60%;
+      border-radius: 12px;
+    }
+
+    .booking div h2 {
+      font-size: 3.8rem;
+      margin-bottom: 20px;
+    }
+
+    .booking div p {
+      font-size: 2.8rem;
+      margin-bottom: 20px;
+    }
+
+    div.booking-text a {
+      font-size: 2.8rem;
+      border-radius: 8px 8px 8px 8px;
+    }
+
+    section.booking img {
+      width: 30%;
+      margin-left: 40px;
+    }
+
+    /*--HOME Email--*/
+
+    section.email {
+      margin: 30px 0px 60px 0px;
+    }
+
+
+    section.email div.signup {
+      border-radius: 12px;
+      padding: 20px;
+      margin: auto;
+      width: 1170px;
+    }
+
+    div.email-header {
+      margin: auto;
+      width: 90%;
+    }
+
+    div.signup form {
+      width: 90%;
+      margin: auto;
+    }
+
+    section.email div.signup h2 {
+      font-size: 3.8rem;
+    }
+
+    section.email div.signup p {
+      font-size: 2.8rem;
+    }
+
+    div.signup img {
+      width: 20%;
+      margin: auto;
+    }
+
+    div.signup form input {
+      font-size: 2.8rem;
+    }
+
+    #submit {
+      width: fit-content;
+      padding: 3px 10px;
+    }
+
+    /*--Footer--*/
+
+    footer {
+      font-size: 2rem;
+    }
+
+    footer div.terms {
+      width: 100%;
+      padding: 20px;
+    }
+
+    div.terms p {
+      width: 40%;
+    }
+
+    table.hours {
+      margin: auto;
+      margin-bottom: 20px;
+      text-align: left;
+    }
+
+    table.hours td {
+      padding: 0px 20px;
+    }
+
+    /*--ABOUT--*/
+
+    /*--ABOUT Hero--*/
+
+    section.about-hero {
+      background-position: bottom;
+    }
+
+    section.about-hero div {
+      width: 70%;
+      color: #BB6D0C;
+    }
+
+    /*--ABOUT Intro--*/
+
+    div.about-intro-text h2 {
+      font-size: 3.8rem;
+      padding-top: 20px;
+    }
+
+    div.about-intro-text p {
+      max-width: 70%;
+      font-size: 2.0rem;
+      margin-bottom: 20px;
+    }
+
+    div.about-facilities div {
+      width: 30%;
+      margin-left: 40px;
+    }
+
+
+    div.about-facilities h3 {
+      font-size: 3.8rem;
+      text-align: left;
+      margin: 0;
+    }
+
+    div.about-facilities ul {
+      font-size: 2.8rem;
+    }
+
+    /*--ABOUT Team--*/
+
+    div.team-left-text {
+      padding: 15px;
+    }
+
+    div.team-left-text img {
+      width: 200px;
+      height: 200px;
+      margin: 20px;
+    }
+
+    div.team-left-text h3 {
+      font-size: 3.8rem;
+    }
+
+    div.team-left-text p {
+      font-size: 2.8rem;
+    }
+
+    section.team div.team-center {
+      width: 80%;
+      margin: 20px auto;
+    }
+
+    div.team-center-text {
+      padding: 15px;
+    }
+
+    div.team-center-text img {
+      width: 200px;
+      height: 200px;
+      margin: 20px;
+    }
+
+    div.team-center-text h3 {
+      font-size: 3.8rem;
+    }
+
+    div.team-center-text p {
+      font-size: 2.8rem;
+    }
+
+    /*--TREATMENTS--*/    
+
+    
+
+    /*--TREATMENTS Hero--*/
+
+    section.treatments-hero {
+      background-position: center;
+    }
+
+    section.treatments-hero div {
+      width: 70%;
+    }
+
+    section.treatments-hero h1 {
+      
+    }
+
+    section.treatments-hero p {
+      
+    }
+
+    /*--TREATMENTS Services--*/
+
+    section.expanding-info {
+      margin: 30px 0px;
+    }
+
+    h3.card-title {
+      font-size: 3.8rem;
+    }
+
+    div.panel-text h4 {
+      font-size: 2.8rem;
+      padding-left: 15px;
+    }
+
+    div.panel-text p {
+      font-size: 2.0rem;
+      padding-left: 15px;
+    }
+
+
+
+    /*--TREATMENTS Pricing--*/
+
+    section.pricing h2 {
+      font-size: 3.8rem;
+    }
+
+    section.pricing div {
+      border-radius: 12px;
+      padding: 20px;
+      margin: auto;
+      width: 1170px;
+    }
+
+    table.pricing-table {
+      font-size: 2.8rem;
+    }
+    
+    /*--TREATMENTS Email--*/
+
+    #message {
+      font-size: 2.8rem;
+    }
+
+  }
+
+  

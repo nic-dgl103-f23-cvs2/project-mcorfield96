@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content=" width=device-width, initial-scale=1.0">
+  <title>Ascent Physiotherapy</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=REM&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/ascent-logo-white.png" alt="mountain logo">
+        <nav>
+            <a class="toggle" onclick="showNav()"><i class="fa fa-bars" aria-hidden="true"></i></a>
+            <ul id="nav-items">
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="about.html">About</a>
+              </li>
+              <li>
+                <a href="treatments.html">Treatments</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+        </nav>
+    </header>
+    <script>
+      function showNav() {
+        var element = document.getElementById("nav-items");
+        element.classList.toggle("show-items");
+      }
+    </script>
+    <main>
+        <section class="hero">
+            <div>
+                <p>Welcome to Ascent</p>
+                <h1>Full-service physiotherapy in the heart of Comox</h1>
+                <a href="treatments.html">Treatments</a>
+            </div>
+        </section>
+        <section class="intro">
+          <div>
+            <h2>Ascent Physiotherapy</h2>
+            <p>Get back to your healthiest self. For 13 years Ascent has been helping residents of the Comox Valley achieve optimal health and vitality. We offer a range of physiotherapy options, including radial shockwave therapy, acupuncture,manual manipulative therapy, and more.</p>
+          </div>
+        </section>
+        <section class="treatments">
+          <h2>Our Services</h2>
+          <p>Explore the full range of treatments that can help you move and feel better.</p>
+          <div class="grid">
+            <div class="grid-item-1"><a href="treatments.html">Manual and Manipulative Therapy</a></div>
+            <div class="grid-item-2"><a href="treatments.html">Intramuscular Stimulation</a></div>
+            <div class="grid-item-3"><a href="treatments.html">Acupuncture</a></div>
+            <div class="grid-item-4"><a href="treatments.html">Radial Shockwave Therapy</a></div>
+            <div class="grid-item-5"><a href="treatments.html">Athletic Taping</a></div>
+            <div class="grid-item-6"><a href="treatments.html">Personal Training</a></div>
+          </div>
+        </section>
+        <section class="quote">
+          <div>
+            <h3>"Friendly and very informative. Shadi took the time in my assessment to walk me through my aches and pains. We got down to the core of the issues instead of just grazing the surface. I highly recommend you check out Ascent Physiotherapy."</h3>
+            <p>David Milan</p>
+          </div>
+        </section>
+        <section class="booking">
+          <div>
+            <div class="booking-text">
+              <h2>Book an appointment</h2>
+              <p>Start your fitness journey and get back to your healthiest self.</p>
+              <a href="#">View availability</a>
+            </div>
+            <img src="images/physio-icon.png" alt="patient stretching">
+          </div>
+        </section>
+        <section class="email">
+          <div class="signup">
+            <div class="email-header">
+              <div>
+                <h2>Sign up for our newsletter to receive the latest news and exclusive deals</h2>
+              </div>
+              <img src="images/mail-icon-1-white.png" alt="letter icon">
+            </div>
+            <form>
+              <label>First Name</label>
+              <input type="text" name="fname" placeholder="Your first name" label>
+              <label>Last Name</label>
+              <input type="text" name="lname" placeholder="Your last name">
+              <label>Email Address</label>
+              <input type="email" name="email" placeholder="Your email address">
+              <input id="submit" type="submit" alt="submit button">
+            </form>
+          </div>
+        </section>
+    </main>
+    <footer>
+      <img src="images/ascent-logo-white.png" alt="mountain logo">
+      <div>
+        <a href="tel:+12503391039">250-339-1039</a>
+        <a href="mailto:admin@ascentphysiotherapy.com">admin@ascentphysiotherapy.com</a>
+        <p>141A Nordin Street, Comox, BC, V9M 3N5</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10328.096528320391!2d-124.9249159!3d49.6726841!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54881315b1258325%3A0xf21aee3501fe1122!2sAscent%20Physiotherapy!5e0!3m2!1sen!2sca!4v1701928487984!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <table class="hours">
+          <tbody>
+            <tr>
+              <td>Monday</td>
+              <td>8am-5pm</td>
+            </tr>
+            <tr>
+              <td>Tuesday</td>
+              <td>8am-5pm</td>
+            </tr>
+            <tr>
+              <td>Wednesday</td>
+              <td>8am-5pm</td>
+            </tr>
+            <tr>
+              <td>Thursday</td>
+              <td>8am-5pm</td>
+            </tr>
+            <tr>
+              <td>Friday</td>
+              <td>8am-3pm</td>
+            </tr>
+            <tr>
+              <td>Saturday</td>
+              <td>Closed</td>
+            </tr>
+            <tr>
+              <td>Sunday</td>
+              <td>Closed</td>
+            </tr>
+          </tbody>
+      </table>
+      </div>
+      <div class="terms">
+        <p>This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.</p>
+      </div>
+    </footer>
+</body>
+</html>
